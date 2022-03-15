@@ -113,4 +113,5 @@ tasks.withType(Test) {
 assets {
     minifyJs = true
     minifyCss = true
+    excludes = ['**/*.scss']
 }
